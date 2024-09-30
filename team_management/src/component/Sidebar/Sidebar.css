@@ -1,0 +1,39 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #fafafa;
+  padding: 40px 20px;
+  align-items: flex-start !important;
+}
+
+.logo {
+  margin: 0 40px 80px 40px;
+  justify-content: flex-start !important;
+  column-gap: 15px;
+}
+
+.sidebar_wrapper {
+  width: 100%;
+}
+.menubar {
+  /* background: yellow; */
+  /* width: 100%; */
+  align-items: flex-start !important;
+  row-gap: 15px;
+}
+
+.menu_list {
+  column-gap: 10px;
+  font-size: 1.2rem;
+  justify-content: flex-start !important;
+  color: #323232;
+  /* border: 1px solid red; */
+  padding: 8px 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.active {
+  color: #467329;
+  background-color: #e3f2da;
+}
